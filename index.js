@@ -22,3 +22,7 @@ bot.onText(/\/ronaldinho/, function (msg) {
   const url = 'https://mds-ca-1.maciv.com/ronaldinho/photos/2017/05/5USfZ_169107_bd5e1e0597ef620657bdd9f8b6f397a9.jpg'
   bot.sendPhoto(msg.chat.id, url);
 });
+
+bot.onText(/\/staMae/, function (msg) {
+  bot.sendMessage(msg.chat.id, 'Num acredito! A STA é uma mãe...');
+});
