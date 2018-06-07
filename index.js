@@ -3,11 +3,11 @@ var token = process.env.VALEU_TOKEN;
 var bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, function (msg) {
-  bot.sendMessage(msg.chat.id, 'Comandos: \n /options \n /nomairValeu for 3 valeu\'s \n /valeu for a single valeu \n /ronaldinho for ronaldinho sign');
+  bot.sendMessage(msg.chat.id, 'Comandos: \n /options \n /nomairValeu for 3 valeu\'s \n /valeu for a single valeu \n /ronaldinho for ronaldinho sign \n /staMae for exclamar que a STA é uma mãe...');
 });
 
 bot.onText(/\/options/, function (msg) {
-  bot.sendMessage(msg.chat.id, 'Comandos: \n /options \n /nomairValeu for 3 valeu\'s \n /valeu for a single valeu \n /ronaldinho for ronaldinho sign');
+  bot.sendMessage(msg.chat.id, 'Comandos: \n /options \n /nomairValeu for 3 valeu\'s \n /valeu for a single valeu \n /ronaldinho for ronaldinho sign \n /staMae for exclamar que a STA é uma mãe...');
 });
 
 bot.onText(/\/valeu/, function (msg) {
